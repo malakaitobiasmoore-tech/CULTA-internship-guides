@@ -11,6 +11,5 @@ def home(request):
         {"title": "Guide 6", "description": "Description of Guide 6"},
     ]
 
-    return render(request, "guides/home.html", {
-        "guides": guides
+    return render(request, "guides/home.html", { "guides": guides
     })
