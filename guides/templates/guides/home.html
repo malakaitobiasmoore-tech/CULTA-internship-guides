@@ -1,0 +1,10 @@
+<h1>TITLE</h1>
+
+<p>DESCRIPTION OF GUIDES</p>
+
+{% for guide in guides %}
+    <a href="/guide/{{ guides.html }}/">
+        <button>{{ guide.title }}</button>
+    </a>
+{% endfor %}
+
