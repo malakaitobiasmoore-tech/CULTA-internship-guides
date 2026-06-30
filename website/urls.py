@@ -1,10 +1,8 @@
 from django.contrib import admin
 from django.urls import path, include
-from django.conf import settings
-from django.conf.urls.static import static
 
 urlpatterns = [
-    path('', include('guides.urls')),
+    path('', include('guides.urls')),          # home + guide pages
+    path('guide/', include('guides.urls')),    # guide/<slug>/
     path('admin/', admin.site.urls),
 ]
-

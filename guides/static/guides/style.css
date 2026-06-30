@@ -1,0 +1,149 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dfb278;
+    overflow-x: hidden;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #dfb278;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px 0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Container that holds all the guide buttons */
+.guide-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* space between buttons */
+    max-width: 800px; /* keeps grid centered and tidy */
+    margin: 0 auto; /* centers the grid */
+    padding-top: 20px;
+}
+
+/* Style for each button */
+.guide-button {
+    padding: 20px;
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%; /* makes buttons fill their grid cell */
+    text-align: center;
+}
+
+.guide-button:hover {
+    background-color: #555;
+}
+
+.main-header {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.main-header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.header-bar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 20px 0; /* spacing above and below */
+}
+
+.header-bar h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.header-bar p {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.footer-bar {
+    width: 100%;
+    background-color: #c49a64;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.footer-bar p {
+    text-align: left;
+    margin: 0;
+}
+
+.pdf-container {
+    max-width: 900px;
+    margin: 40px auto;
+    overflow: hidden; 
+}
+
+embed {
+    width: 100%;
+    overflow: hidden;
+    pointer-events: none; /* prevents interaction */
+    max-width: 100%; /* important */
+    height: 1000px;   /* prevents collapse */
+    display: block;
+    border: 2px solid #ccc;
+    border: none;
+    outline: none;
+}
+
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+

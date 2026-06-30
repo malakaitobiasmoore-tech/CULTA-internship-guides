@@ -1,24 +1,23 @@
 {% load static %}
 <link rel="stylesheet" href="{% static 'guides/style.css' %}">
 
-
 <div class="page-wrapper">
-    
+
     <div class="header-bar">
         <h1>LTA Internship Guides</h1>
         <p>Your reference library</p>
     </div>
 
-    <h1>TITLE</h1>
+    <h1>{{ title }}</h1>
 
-    <p>DESCRIPTION OF GUIDES</p>
+    <p>{{ description }}</p>
 
-    <div class="guide-grid">
-        {% for guide in guides %}
-            <a href="/guide/{{ guide.slug }}/">
-                <button class="guide-button">{{ guide.title }}</button>
-            </a>
-        {% endfor %}
+    <div class="pdf-container">
+        <embed src="{{ pdf_url }}"
+            type="application/pdf"
+            width="100%"
+            height="800px">
+
     </div>
 
     <div class="footer-bar">
