@@ -3,29 +3,32 @@
 
 <div class="page-wrapper">
 
-    <div class="header-bar">
-        <h1>LTA Internship Guides</h1>
-        <p>Your reference library</p>
-    </div>
+    <main>
 
-    <h1>{{ title }}</h1>
+        <div class="header-bar">
+            <h1>LTA Internship Guides</h1>
+            <p>Your reference library</p>
+        </div>
 
-    <p>{{ description }}</p>
+        <h1>{{ title }}</h1>
 
-    <div class="pdf-container">
-        <embed src="{{ pdf_url }}"
-            type="application/pdf"
-            width="100%"
-            height="800px">
+        <p>{{ description }}</p>
 
-    </div>
+        <div class="pdf-container">
+            <embed src="{{ pdf_url }}"
+                type="application/pdf"
+                width="100%"
+                height="800px">
+        </div>
+
+        <script>
+            window.scrollTo(0, 0);
+        </script>
+
+    </main>
 
     <div class="footer-bar">
         <p>© 2026 LTA Internship Guides</p>
     </div>
-
-    <script>
-        window.scrollTo(0, 0);
-    </script>
 
 </div>
