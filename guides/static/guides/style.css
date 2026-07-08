@@ -100,7 +100,10 @@ button:hover {
     color: white;
     text-align: center;
     padding: 20px 0;
-    margin: 20px 0; /* spacing above and below */
+    margin: 20px 0;
+    box-shadow:
+        0 6px 12px rgba(0,0,0,0.15),   /* shadow below */
+        0 -6px 12px rgba(0,0,0,0.15);  /* shadow above */
 }
 
 .header-bar h1 {
