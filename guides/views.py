@@ -1,37 +1,43 @@
 from django.shortcuts import render
 
+from django.conf import settings
+
+
+
 GUIDES = {
     "guide1": {
-        "title": "1st Guide",
-        "description": "This is a test for the 1st guide.",
-        "pdf": "media/guides/guide1.pdf",
+        "title": "Copilot",
+        "description": "Guide for Microsoft Copilot.",
+        "pdf": "Student Guide - Copilot_Redesigned.pdf",
     },
     "guide2": {
-        "title": "2nd Guide",
-        "description": "This is a test for the 2nd guide.",
-        "pdf": "media/guides/guide2.pdf",
+        "title": "Gemini Notebook",
+        "description": "Guide for Gemini Notebook.",
+        "pdf": "Student Guide - Gemini Notebook_Redesigned.pdf",
     },
     "guide3": {
-        "title": "3rd Guide",
-        "description": "This is a test for the 3rd guide.",
-        "pdf": "media/guides/guide3.pdf",
+        "title": "Google Gemini",
+        "description": "Guide for Google Gemini.",
+        "pdf": "Student Guide - Google Gemini_Redesigned.pdf",
     },
     "guide4": {
-        "title": "4th Guide",
-        "description": "This is a test for the 4th guide.",
-        "pdf": "media/guides/guide4.pdf",
+        "title": "LanguageTool",
+        "description": "Guide for LanguageTool.",
+        "pdf": "Student Guide - LanguageTool_Redesigned.pdf",
     },
     "guide5": {
-        "title": "5th Guide",
-        "description": "This is a test for the 5th guide.",
-        "pdf": "media/guides/guide5.pdf",
+        "title": "Perplexity",
+        "description": "Guide for Perplexity.",
+        "pdf": "Student Guide - Perplexity_Redesigned.pdf",
     },
     "guide6": {
-        "title": "6th Guide",
-        "description": "This is a test for the 6th guide.",
-        "pdf": "media/guides/guide6.pdf",
+        "title": "Quillbot",
+        "description": "Guide for Quillbot.",
+        "pdf": "Student Guide - Quillbot_Redesigned.pdf",
     },
 }
+
+
 
 GUIDE_TITLES = {
     "guide1": "1st Guide",
@@ -59,6 +65,6 @@ def guide(request, name):
     return render(request, "guides/guide.html", {
         "title": guide_data["title"],
         "description": guide_data["description"],
-        "pdf_url": "/" + guide_data["pdf"],
+        "pdf_url": "/media/" + guide_data["pdf"],
     })
 
