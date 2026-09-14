@@ -14,8 +14,10 @@
 
         <p>{{ description }}</p>
 
-    {% load static %}
-
+    <div class="back-button-container">
+        <a href="/" class="back-button"> Back to Home</a>
+    </div>
+    
     <div class="pdf-container">
         <iframe
                 src="{% static 'pdfjs/web/viewer.html' %}?file={{ pdf_url|urlencode }}"
