@@ -255,6 +255,7 @@ embed {
 
     .guide-grid {
         grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
     }
 
     p {
@@ -264,15 +265,16 @@ embed {
     }
 
     .guide-item {
+        width: 250px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .guide-button {
-        width: 90%;
-        max-width: 300px;
-    }
+        width: 180px;
+        max-width: 15px;
+    }   
 
     .guide-description {
         width: 90%;
@@ -300,7 +302,6 @@ embed {
     .p2 {
         text-align: center;
     }
-
   
     .footer-image {
         text-align: center;
