@@ -28,7 +28,7 @@ GUIDES = {
     "guide5": {
         "title": "Perplexity",
         "description": """Perplexity combines AI-powered responses with web search functionality, providing answers alongside referenced sources. This guide demonstrates how students can use it for research, fact-finding, and exploring new topics.""",
-        "pdf": "Student Guide - Perplexity_Redesigned.pdf",
+        "pdf": "Student Guide - LanguageTool_Redesigned.pdf",
     },
     "guide6": {
         "title": "Quillbot",
