@@ -253,6 +253,12 @@ embed {
 
 @media (max-width: 768px) {
 
+    .guide-grid {
+        grid-template-columns: 1fr;
+        justify-items: center;
+
+    }
+
     .guide-item {
         width: fit-content;
         margin-left: auto;
