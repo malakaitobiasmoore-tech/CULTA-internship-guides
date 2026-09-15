@@ -77,17 +77,21 @@
 
             <br>
             <br>
-            <div class="footer-image">
-                <img src="/media/cardiff-uni-logo.png" alt="Cardiff University Logo">
-            </div>
+            {% load static %}
+
+                <div class="footer-image">
+                    <img src="{% static 'guides/cardiff-uni-logo.png' %}"
+                    alt="Cardiff University Logo"
+                    lass="cardiff-logo">
+                </div>
 
         </div>
 
-    </div>
+        <script>
+            window.scrollTo(0, 0);
+        </script>
 
-    <script>
-        window.scrollTo(0, 0);
-    </script>
+    </div>
 
 </div>
 
