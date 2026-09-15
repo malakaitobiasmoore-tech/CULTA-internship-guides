@@ -10,7 +10,7 @@ SECRET_KEY = 'replace-this-with-your-own-secret-key'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["culta-internship-guides-git-lta-ml-internship-website.apps.containers.cs.cf.ac.uk"]
 
 
 # Application definition
