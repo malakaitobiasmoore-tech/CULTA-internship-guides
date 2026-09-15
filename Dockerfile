@@ -12,4 +12,6 @@ WORKDIR /usr/src/app
 ENV HOME=/tmp
 ENV TMPDIR=/tmp
 
+RUN python manage.py collectstatic --noinput
+
 CMD ["gunicorn", "website.wsgi:application", "--bind", "0.0.0.0:5000", "--worker-tmp-dir", "/tmp"]
