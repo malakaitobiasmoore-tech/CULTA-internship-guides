@@ -265,10 +265,10 @@ embed {
     }
 
     .guide-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: auto;
+        
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
     }   
 
     .guide-button {
