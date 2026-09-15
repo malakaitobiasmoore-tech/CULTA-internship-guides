@@ -12,4 +12,4 @@ WORKDIR /usr/src/app
 ENV HOME=/tmp
 ENV TMPDIR=/tmp
 
-CMD ["gunicorn", "website.wsgi:application", "--bind", "0.0.0.0:8000", "--worker-tmp-dir", "/tmp"]
+CMD ["gunicorn", "website.wsgi:application", "--bind", "0.0.0.0:5000", "--worker-tmp-dir", "/tmp"]
