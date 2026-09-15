@@ -6,10 +6,13 @@
     <main> 
 
         <div class="header-bar">
-            <h1>LTA Internship Guides</h1>
-            <p>Your reference library</p>
+            <h1>AI support library</h1>
+            <p>Supporting Neurodivergent Learning with AI</p>
         </div>
 
+        <br>
+        <br>
+        <br>
         <h1>{{ title }}</h1>
 
         <p>{{ description }}</p>
@@ -18,6 +21,9 @@
         <a href="/" class="back-button"> Back to Home</a>
     </div>
     
+    <br>
+    <br>
+    <br>
     <div class="pdf-container">
         <iframe
                 src="{% static 'pdfjs/web/viewer.html' %}?file={{ pdf_url|urlencode }}"
@@ -25,6 +31,7 @@
                 height="800">
         </iframe>
     </div>
+    
 
         <script>
             window.scrollTo(0, 0);
@@ -33,7 +40,40 @@
     </main>
 
     <div class="footer-bar">
-        <p>© 2026 LTA Internship Guides</p>
-    </div>
+        <div class="footer-content">
+            <div class="footer-text">
+                <p2><strong>© 2026 Cardiff University, School of Modern Langauges, Learing Teaching Academy</strong></p2>
+                <br>
+                <br>
+                <p2>Developed as part of a Cardiff University internship project exploring AI in Education, 
+                    in partnership with the <br>
+                    Learning and Teaching Academy (LTA) and the School of Modern Langauges. 
+                </p2>
+                <br>
+                <br>
+                <p2>Supporting neurodivergent learning through responsible AI use.
+                </p2>
+                <br>
+                <br>
+                <p2><Strong>Contant us:</Strong></p2> <br>
+                <br>
+                <p2>Project supervisor: Nazaret Perez Nieto, Staff in Global Humanities, Cardiff University<br></p2>
+                <p2>Contact email: Perez-NietoN@cardiff.ac.uk</p2><br>
+                <br>
+                <p2>Project supervisor: Angelo Silvestri, Staff in Global Humanities, Cardiff University<br></p2>
+                <p2>Contact email: SilvestriAM@cardiff.ac.uk
+                <br>
+                <br>
+                <p2><strong>Website developed by: Malakai Moore, Cardiff University, School of Computer Science and Informatics</strong></p2>
+                
+            </div>
+
+            <br>
+            <br>
+            <div class="footer-image">
+                <img src="/media/cardiff-uni-logo.png" alt="Cardiff University Logo">
+            </div>
+
+        </div>
 
 </div>

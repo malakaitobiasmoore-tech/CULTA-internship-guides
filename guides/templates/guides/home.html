@@ -7,24 +7,82 @@
 <div class="page-wrapper">
     
     <div class="header-bar">
-        <h1>LTA Internship Guides</h1>
-        <p>Your reference library</p>
+        <h1>AI support library</h1>
+        <p>Supporting Neurodivergent Learning with AI</p>
     </div>
 
-    <h1>TITLE</h1>
+    <br>
+    <br>
+    <br>
+    <h1>AI Support Guides for Neurodivergent Students</h1>
 
-    <p>DESCRIPTION OF GUIDES</p>
+    <p class = "intro-text"> Welcome to the AI Support Guide Library. These guides explore how a range of AI tools 
+        can be used to support studying, organisation, research, writing, and academic success 
+        at university.
+        <br>
+        <br>
+        Below is a series of guides, exploring how AI tools that we recommended can be 
+            used to support your learning and academic work. Each guide is designed to be practical,
+            easy to follow, and accessible for neurodivergent studens.
+        <br>
+        <br>
+        Select a tool below to explore its guide and discover practical ways it can support your learning.
+        </p>
 
+                    <p class="guide-description">
+                        {{ guide.description }}
+                    </p>
+
+    <br>
+    <br>        
     <div class="guide-grid">
         {% for guide in guides %}
             <a href="/guide/{{ guide.slug }}/">
                 <button class="guide-button">{{ guide.title }}</button>
+                <p class="guide-description">
+                        {{ guide.description }}
+                </p>
             </a>
         {% endfor %}
     </div>
 
     <div class="footer-bar">
-        <p>© 2026 LTA Internship Guides</p>
+        <div class="footer-content">
+            <div class="footer-text">
+                <p2><strong>© 2026 Cardiff University, School of Modern Langauges, Learing Teaching Academy</strong></p2>
+                <br>
+                <br>
+                <p2>Developed as part of a Cardiff University internship project exploring AI in Education, 
+                    in partnership with the <br>
+                    Learning and Teaching Academy (LTA) and the School of Modern Langauges. 
+                </p2>
+                <br>
+                <br>
+                <p2>Supporting neurodivergent learning through responsible AI use.
+                </p2>
+                <br>
+                <br>
+                <p2><Strong>Contant us:</Strong></p2> <br>
+                <br>
+                <p2>Project supervisor: Nazaret Perez Nieto, Staff in Global Humanities, Cardiff University<br></p2>
+                <p2>Contact email: Perez-NietoN@cardiff.ac.uk</p2><br>
+                <br>
+                <p2>Project supervisor: Angelo Silvestri, Staff in Global Humanities, Cardiff University<br></p2>
+                <p2>Contact email: SilvestriAM@cardiff.ac.uk
+                <br>
+                <br>
+                <p2><strong>Website developed by: Malakai Moore, Cardiff University, School of Computer Science and Informatics</strong></p2>
+                
+            </div>
+
+            <br>
+            <br>
+            <div class="footer-image">
+                <img src="/media/cardiff-uni-logo.png" alt="Cardiff University Logo">
+            </div>
+
+        </div>
+
     </div>
 
     <script>
