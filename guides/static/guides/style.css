@@ -593,6 +593,8 @@ embed {
 
     .guide-grid {
         grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        width: 100%;
     }
 
     p {
@@ -611,6 +613,7 @@ embed {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .guide-button {
