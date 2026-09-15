@@ -121,6 +121,12 @@ button:hover {
     text-align: center;
 }
 
+.guide-page-description {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .guide-grid a,
 .guide-grid a:visited,
 .guide-grid a:hover,
@@ -257,6 +263,12 @@ embed {
         grid-template-columns: 1fr;
         justify-items: center;
 
+    }
+
+    .guide-item {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .footer-content {
