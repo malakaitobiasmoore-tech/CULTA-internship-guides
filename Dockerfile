@@ -9,4 +9,4 @@ COPY . /usr/src/app
 
 WORKDIR /usr/src/app
 
-CMD gunicorn --bind 0.0.0.0:8000 website.wsgi:application
+CMD gunicorn website.wsgi:application --bind 0.0.0.0:8000
