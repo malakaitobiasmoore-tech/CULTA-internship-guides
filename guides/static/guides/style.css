@@ -618,7 +618,7 @@ embed {
 
     .guide-button {
         width: 90%;
-        max-width: 300px;
+        box-sizing: border-box;
     }
 
     .guide-description {
