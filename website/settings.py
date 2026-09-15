@@ -10,7 +10,7 @@ SECRET_KEY = 'replace-this-with-your-own-secret-key'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["culta-internship-guides-ai-learning-library.apps.containers.cs.cf.ac.uk"]
+ALLOWED_HOSTS = ["*"]  # Allow all hosts for development; change this in production
 
 
 # Application definition
