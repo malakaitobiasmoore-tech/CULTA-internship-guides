@@ -59,7 +59,7 @@ def home(request):
         {"title": "LanguageTool", "slug": "guide4",
         "description": "Improve grammar, spelling and writing clarity."},
         {"title": "Perplexity", "slug": "guide5",
-        "description": "Focused research with accurate outputs and citaion." },
+        "description": "Focused research with accurate outputs and citation." },
         {"title": "Quillbot", "slug": "guide6",
         "description": "Paraphrasing, summarising and improving written text."},
     ]
