@@ -265,11 +265,11 @@ embed {
     }
 
     .guide-item {
-        width: 250px;
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+        width: auto;
+    }   
 
     .guide-button {
         width: 180px;
