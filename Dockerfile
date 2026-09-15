@@ -9,4 +9,7 @@ COPY . /usr/src/app
 
 WORKDIR /usr/src/app
 
-CMD gunicorn website.wsgi:application --bind 0.0.0.0:8000
+ENV HOME=/tmp
+ENV TMPDIR=/tmp
+
+CMD ["gunicorn", "website.wsgi:application", "--bind", "0.0.0.0:8000", "--worker-tmp-dir", "/tmp"]
