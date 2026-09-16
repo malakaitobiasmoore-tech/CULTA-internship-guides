@@ -106,7 +106,7 @@ button:hover {
     margin: 10px auto 0;
     line-height: 1.5;
 
-    color: #000000;
+    color: #333
 
 }
 
@@ -126,6 +126,7 @@ button:hover {
     padding: 0 20px;
     text-align: center;
     box-sizing: border-box;
+    color: #333;
 }
 
 .guide-grid a,
