@@ -33,7 +33,7 @@ GUIDES = {
     "guide6": {
         "title": "Quillbot",
         "description": """QuillBot offers tools for paraphrasing, summarising, and improving written text. This guide shows how students can use these features to support understanding, revision, and drafting academic work.""",
-        "pdf": "Student Guide - Quillbot_Redesigned",
+        "pdf": "Student Guide - Quillbot_Redesigned.pdf",
     },
 }
 
