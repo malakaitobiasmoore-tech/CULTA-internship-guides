@@ -1,5 +1,15 @@
 {% load static %}
-<link rel="stylesheet" href="{% static 'guides/style.css' %}">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} | AI Support Library</title>
+    <link rel="stylesheet" href="{% static 'guides/style.css' %}">
+</head>
+
+<body>
 
 <div class="page-wrapper">
 
@@ -81,7 +91,9 @@
                     <img src="{% static 'guides/cardiff-uni-logo.png' %}"
                     alt="Cardiff University Logo"
                     class="cardiff-logo">
-                </div>
+            </div>
         </div>
-
 </div>
+
+</body>
+</html>
