@@ -311,6 +311,14 @@ embed {
     h2 {
         font-size: 16px;
     }
+    .main-header h1 {
+        font-size: 25px;
+    }
+
+    .main-header p {
+        font-size: 16px;
+
+    }
     
     .p2 {
         text-align: center;
