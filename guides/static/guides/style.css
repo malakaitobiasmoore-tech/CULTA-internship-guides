@@ -301,10 +301,20 @@ embed {
         padding-left: 20px;
         padding-right: 20px;
         box-sizing: border-box;
+        Font-size: 18px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 16px;
     }
     
     .p2 {
         text-align: center;
+        Font-size: 18px;
     }
   
     .footer-image {
